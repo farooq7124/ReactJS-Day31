@@ -1,0 +1,24 @@
+Redux,
+
+1. Action (What?) - What need to be done. Example add/edit/delete
+2. Reducer (How?)- Instead of directly manipulating the data . It takes the state and manipulates the data and then returns new state.
+
+Example : 
+
+var numbers = [10,20,14,11] - I want to find out Max number from this array.
+
+numbers.reduce(function(v1,v2){
+  return v1 > v2 ? v1 : v2;
+});
+
+
+3. Dispatcher (Who ?) - 
+
+Projects Specifications
+----------------------------
+Webpack -> is for building the project/ Bundling the project.It is a build tool. Similar to Maven
+ES6 -> Uses Babel to convert ES6 to ES5.
+
+Containers - communicate to state, 
+components are used only to render data.
+

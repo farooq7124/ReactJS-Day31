@@ -1,0 +1,70 @@
+var spinner = new Object();
+spinner = {
+	value : 0,
+	up : function(){
+		spinner.value++;
+		console.log(spinner.value);
+	},
+	down : function(){
+		spinner.value--;
+		console.log(spinner.value);
+	}
+}
+
+var spinner = (function(){
+	var counter = 0;
+	return {
+		up : function(){return ++counter;},
+		down : function(){return --counter;}
+	};
+});
+
+Advance Javascript videos 
+----------------------------
+bit.ly/javascript-training-videos
+
+-- Javascript template engine -- HandleBars 
+
+1. Create HTML page where user can calculate his salary. Inputs - Basic, HRA,DA, Tax, Range for Tax % & Calculate button to calculate salary.
+
+https://github.com/tkmagesh/Sonata-React-Feb-2016
+
+----------------
+
+What is ES6 ?
+Javascript-next
+
+-DART -Javascript
+
+
+ES6 is quiet fast.
+
+Transfiles for ES6 code
+1. Bable  - It converts ES6 code to ES5. 
+2. Traceur
+
+Features of ES6
+------------
+1. Block Scope variables .. (Variable Hosting issue read in google)
+	let,Constant,Var
+2. Default Parameters in functions
+3. Rest Parameters
+4. Spread Operator
+5. Template Strings
+6. Property Shorthand
+7. Method Properties
+8. Destructuring Assignments
+
+----Read ----------
+filters ---> instead of For loops 
+Example : console.dir(anyArray); -- Check all different methods with examples.
+
+
+------>>>>>>babeljs.io
+
+let evenNumbers = numbers.filter(n => n%2 == 0);
+
+===================
+----Day2----------
+===================
+

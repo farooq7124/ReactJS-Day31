@@ -1,0 +1,25 @@
+What does React do for us ?
+- React is plain simple view library.
+- React internally creates Virtual DOM
+- React helps us to assemble UI and it is the major advantage of react.
+- React does not allow 2 way binding
+- Does not allow dependency injection
+- Flux gives a guideline how the reverse communication to achieve. That is 2 way binding.
+- Store - When store is changed then the re-rendering hapens.
+
+Action -> Dispatcher  -> Store -> Renders -> Functions
+
+Flux is an idea and Redux is a framework helps to implement Flux.
+Flux/Redux is used to handling the state of the component.\
+
+Read Topics
+----------------
+JSX
+
+
+Property & State
+
+1 We can send the value to component from outside through property.
+
+Props is maintained from insided and State is maintained from out side
+
